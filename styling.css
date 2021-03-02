@@ -1,0 +1,76 @@
+body
+{
+    margin: auto;
+    margin-top: 20px;
+    max-width: 950px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+h2
+{
+    color: #a32638;
+}
+ul
+{
+    list-style-image: url(tiny-coffee-cup.gif);
+}
+.top-pic
+{
+    position: absolute;
+    clip: rect(0px,955px,95px,0px);
+}
+.navbar
+{
+    position: relative;
+    top: 97px;
+    background-color: #a32638;
+    overflow: hidden;
+    width: 955px;
+}
+.navbar a
+{
+    float: left;
+    padding: 14px;
+    width: 131.1px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.navbar a:hover
+{
+    background-color: black;
+}
+.heading h3
+{
+    position: absolute;
+    max-width: 500px;
+
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: normal;
+    color: white;
+    font-size: 13mm;
+    opacity: 0.83;
+}
+.navbar2
+{
+    overflow: hidden;
+    position: relative;
+    top: 65px;
+    width: 955px;
+}
+.navbar2 a
+{
+    float: left;
+    padding: 14px;
+    width: 131.1px;
+    text-align: center;
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: bold;
+}
+.navbar2 a:hover
+{
+    color: black;
+}
