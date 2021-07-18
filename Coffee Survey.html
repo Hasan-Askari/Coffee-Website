@@ -103,18 +103,21 @@
         </div>
 
         <div class="form2">
-                Tell us your coffee preparation methods:<br>
-                <textarea name="methods" rows="8" cols="50">
-                </textarea>
+                Tell us your coffee preparation methods: <br>
+                <textarea class="txtarea" name="methods" placeholder="Write something here..." rows="8" cols="50"></textarea>
                 <br><br>
 
                 Do you grind your own beans?<br>
-                <input type="radio" name="option" value="yes"> Yes <br>
-                <input type="radio" name="option" value="no"> No <br>
+                <input type="radio" id="optionYES" name="option" value="yes">
+                <label for="optionYES"> Yes</label>
                 <br>
+                <input type="radio" id="optionNO" name="option" value="no">
+                <label for="optionNO"> No</label>
+                <br>
+
                 How do you drink your coffee?<br>
-                with sugar: <input type="checkbox" name="sugarorcream" value="sugar"><br>
-                with cream: <input type="checkbox" name="sugarorcream" value="cream"><br>
+                <label for="SugarOrCream1">with sugar </label> <input type="checkbox" id="SugarOrCream1" name="SugarOrCream" value="sugar"><br>
+                <label for="SugarOrCream2">with cream </label> <input type="checkbox" id="SugarOrCream2" name="SugarOrCream" value="cream"><br>
                 <br>
                 What is your favorite coffee drink?<br>
                 <select name="coffee">
